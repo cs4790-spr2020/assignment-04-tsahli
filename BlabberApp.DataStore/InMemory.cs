@@ -19,25 +19,13 @@ namespace BlabberApp.Domain
 
         public IDatum Read(int index)
         {
-            return (BlabberApp.Domain.IDatum)this._items[index;
+            return (BlabberApp.Domain.IDatum)this._items[index];
         }
 
         public bool Update(IDatum datum)
         {
             return true;
         }
-
-        // public bool Delete(int index)
-        // {
-        //     try
-        //     {
-        //         this._items.RemoveAt(index);
-        //     }
-        //     catch (ArgumentException e) {
-        //         throw e;
-        //     }
-        //     return true;
-        //     }
 
         public bool Delete(ISpecimen specimen)
         {
