@@ -6,7 +6,7 @@ namespace BlabberApp.Console
     {
         static void Main(string[] args)
         {
-            Sys.Console.WriteLine("Hello World!");
+            Sys.Console.WriteLine("Hello from BlabberApp.Console");
         }
     }
 }
